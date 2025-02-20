@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "learning",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -38,9 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "learning::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learning-Debug-9f764eac5dfe72137471.json",
-					"name" : "learning",
+					"id" : "Class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Class-Debug-aa26d4a84c4c52af5177.json",
+					"name" : "Class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pointer-Debug-7d36e589fa518c2f4b30.json",
+					"name" : "Pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Struct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Struct-Debug-c261ebff37cdd5721d2f.json",
+					"name" : "Struct",
 					"projectIndex" : 0
 				}
 			]

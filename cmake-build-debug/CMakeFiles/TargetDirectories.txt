@@ -1,3 +1,5 @@
-/Users/yingbingzhu/CLionProjects/learning/cmake-build-debug/CMakeFiles/learning.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-debug/CMakeFiles/Pointer.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-debug/CMakeFiles/Struct.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-debug/CMakeFiles/Class.dir
 /Users/yingbingzhu/CLionProjects/learning/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/yingbingzhu/CLionProjects/learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir

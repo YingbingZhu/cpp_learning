@@ -41,47 +41,107 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/yingbingzhu/CLionProjects/learning/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target learning
+# Object build statements for EXECUTABLE target Pointer
 
 
 #############################################
-# Order-only phony target for learning
+# Order-only phony target for Pointer
 
-build cmake_object_order_depends_target_learning: phony || .
+build cmake_object_order_depends_target_Pointer: phony || .
 
-build CMakeFiles/learning.dir/Source_Files/main.cpp.o: CXX_COMPILER__learning_unscanned_Debug /Users/yingbingzhu/CLionProjects/learning/Source$ Files/main.cpp || cmake_object_order_depends_target_learning
-  DEP_FILE = CMakeFiles/learning.dir/Source_Files/main.cpp.o.d
+build CMakeFiles/Pointer.dir/subjects/pointer/main.cpp.o: CXX_COMPILER__Pointer_unscanned_Debug /Users/yingbingzhu/CLionProjects/learning/subjects/pointer/main.cpp || cmake_object_order_depends_target_Pointer
+  DEP_FILE = CMakeFiles/Pointer.dir/subjects/pointer/main.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/learning.dir
-  OBJECT_FILE_DIR = CMakeFiles/learning.dir/Source_Files
+  INCLUDES = -I/Users/yingbingzhu/CLionProjects/learning/include -I/Users/yingbingzhu/CLionProjects/learning/subjects/class -I/Users/yingbingzhu/CLionProjects/learning/subjects/pointer -I/Users/yingbingzhu/CLionProjects/learning/subjects/struct
+  OBJECT_DIR = CMakeFiles/Pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles/Pointer.dir/subjects/pointer
 
-build CMakeFiles/learning.dir/Source_Files/Log.cpp.o: CXX_COMPILER__learning_unscanned_Debug /Users/yingbingzhu/CLionProjects/learning/Source$ Files/Log.cpp || cmake_object_order_depends_target_learning
-  DEP_FILE = CMakeFiles/learning.dir/Source_Files/Log.cpp.o.d
+build CMakeFiles/Pointer.dir/subjects/pointer/Log.cpp.o: CXX_COMPILER__Pointer_unscanned_Debug /Users/yingbingzhu/CLionProjects/learning/subjects/pointer/Log.cpp || cmake_object_order_depends_target_Pointer
+  DEP_FILE = CMakeFiles/Pointer.dir/subjects/pointer/Log.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/learning.dir
-  OBJECT_FILE_DIR = CMakeFiles/learning.dir/Source_Files
-
-build CMakeFiles/learning.dir/Source_Files/math.cpp.o: CXX_COMPILER__learning_unscanned_Debug /Users/yingbingzhu/CLionProjects/learning/Source$ Files/math.cpp || cmake_object_order_depends_target_learning
-  DEP_FILE = CMakeFiles/learning.dir/Source_Files/math.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/learning.dir
-  OBJECT_FILE_DIR = CMakeFiles/learning.dir/Source_Files
+  INCLUDES = -I/Users/yingbingzhu/CLionProjects/learning/include -I/Users/yingbingzhu/CLionProjects/learning/subjects/class -I/Users/yingbingzhu/CLionProjects/learning/subjects/pointer -I/Users/yingbingzhu/CLionProjects/learning/subjects/struct
+  OBJECT_DIR = CMakeFiles/Pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles/Pointer.dir/subjects/pointer
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target learning
+# Link build statements for EXECUTABLE target Pointer
 
 
 #############################################
-# Link the executable learning
+# Link the executable Pointer
 
-build learning: CXX_EXECUTABLE_LINKER__learning_Debug CMakeFiles/learning.dir/Source_Files/main.cpp.o CMakeFiles/learning.dir/Source_Files/Log.cpp.o CMakeFiles/learning.dir/Source_Files/math.cpp.o
+build Pointer: CXX_EXECUTABLE_LINKER__Pointer_Debug CMakeFiles/Pointer.dir/subjects/pointer/main.cpp.o CMakeFiles/Pointer.dir/subjects/pointer/Log.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
-  OBJECT_DIR = CMakeFiles/learning.dir
+  OBJECT_DIR = CMakeFiles/Pointer.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = learning
-  TARGET_PDB = learning.dbg
+  TARGET_FILE = Pointer
+  TARGET_PDB = Pointer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Struct
+
+
+#############################################
+# Order-only phony target for Struct
+
+build cmake_object_order_depends_target_Struct: phony || .
+
+build CMakeFiles/Struct.dir/subjects/struct/math.cpp.o: CXX_COMPILER__Struct_unscanned_Debug /Users/yingbingzhu/CLionProjects/learning/subjects/struct/math.cpp || cmake_object_order_depends_target_Struct
+  DEP_FILE = CMakeFiles/Struct.dir/subjects/struct/math.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  INCLUDES = -I/Users/yingbingzhu/CLionProjects/learning/include -I/Users/yingbingzhu/CLionProjects/learning/subjects/class -I/Users/yingbingzhu/CLionProjects/learning/subjects/pointer -I/Users/yingbingzhu/CLionProjects/learning/subjects/struct
+  OBJECT_DIR = CMakeFiles/Struct.dir
+  OBJECT_FILE_DIR = CMakeFiles/Struct.dir/subjects/struct
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Struct
+
+
+#############################################
+# Link the executable Struct
+
+build Struct: CXX_EXECUTABLE_LINKER__Struct_Debug CMakeFiles/Struct.dir/subjects/struct/math.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
+  OBJECT_DIR = CMakeFiles/Struct.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Struct
+  TARGET_PDB = Struct.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Class
+
+
+#############################################
+# Order-only phony target for Class
+
+build cmake_object_order_depends_target_Class: phony || .
+
+build CMakeFiles/Class.dir/subjects/class/main.cpp.o: CXX_COMPILER__Class_unscanned_Debug /Users/yingbingzhu/CLionProjects/learning/subjects/class/main.cpp || cmake_object_order_depends_target_Class
+  DEP_FILE = CMakeFiles/Class.dir/subjects/class/main.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  INCLUDES = -I/Users/yingbingzhu/CLionProjects/learning/include -I/Users/yingbingzhu/CLionProjects/learning/subjects/class -I/Users/yingbingzhu/CLionProjects/learning/subjects/pointer -I/Users/yingbingzhu/CLionProjects/learning/subjects/struct
+  OBJECT_DIR = CMakeFiles/Class.dir
+  OBJECT_FILE_DIR = CMakeFiles/Class.dir/subjects/class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Class
+
+
+#############################################
+# Link the executable Class
+
+build Class: CXX_EXECUTABLE_LINKER__Class_Debug CMakeFiles/Class.dir/subjects/class/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
+  OBJECT_DIR = CMakeFiles/Class.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Class
+  TARGET_PDB = Class.dbg
 
 
 #############################################
@@ -117,7 +177,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/yingbingzhu/CLionProjects/learning/cmake-build-debug
 
-build all: phony learning
+build all: phony Pointer Struct Class
 
 # =============================================================================
 # Built-in targets
