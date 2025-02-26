@@ -11,6 +11,9 @@ add_executable(Pointer "subjects/pointer/main.cpp" "subjects/pointer/Log.cpp")
 add_executable(Struct  "subjects/struct/math.cpp")   # Struct doesn't have a main yet
 add_executable(Class   "subjects/class/main.cpp"
         subjects/class/main.cpp
+        subjects/class/Static.cpp
+        subjects/class/Enum.cpp
+        subjects/class/Constructor.cpp
 )   # If you have a main file in class
 
 # Ensure each executable is independent

@@ -1,14 +1,13 @@
 # ninja log v6
-10	970	1739421983342791897	CMakeFiles/learning.dir/Source_Files/main.cpp.o	b7fa434f2d5b5d0a
 1	235	1739253016958728904	CMakeFiles/learning.dir/Source_Files/math.cpp.o	cab737ccd3410679
-3	93	1740031090066370906	build.ninja	9ba5bb25c107e79b
-970	1124	1739421984303036552	learning	4721932eb1b58fe6
+3	114	1740462774913052491	build.ninja	9ba5bb25c107e79b
+10	970	1739421983342791897	CMakeFiles/learning.dir/Source_Files/main.cpp.o	b7fa434f2d5b5d0a
 0	886	1739230688575608986	CMakeFiles/learning.dir/main.cpp.o	52cd42bc1175708b
+25	994	1740462490341828090	CMakeFiles/Class.dir/subjects/class/main.cpp.o	e24ed9f9befa020
+7	215	1739231774939957578	CMakeFiles/learning.dir/math.cpp.o	1f027c968d9f689e
+970	1124	1739421984303036552	learning	4721932eb1b58fe6
+994	1176	1740462491310339819	Class	5c429a67a4d78b6
+26	238	1740462490342289789	CMakeFiles/Class.dir/subjects/class/Enum.cpp.o	14e1b173b9e4e2cd
 6	677	1739253248714602457	CMakeFiles/learning.dir/Source_Files/Log.cpp.o	8afbfbe2852a3fc
 5	736	1739230774034547834	CMakeFiles/learning.dir/Log.cpp.o	af783f5876ecacdd
-7	215	1739231774939957578	CMakeFiles/learning.dir/math.cpp.o	1f027c968d9f689e
-3	111	1740031090066370906	build.ninja	9ba5bb25c107e79b
-1	1295	1740031090081276336	CMakeFiles/Class.dir/subjects/class/main.cpp.o	e24ed9f9befa020
-1299	1558	1740031091379280284	Class	f69f501a31d520fd
-7	990	1740031196884245423	CMakeFiles/Class.dir/subjects/class/main.cpp.o	e24ed9f9befa020
-990	1141	1740031197866721407	Class	f69f501a31d520fd
+7	226	1740079322484325959	CMakeFiles/Class.dir/subjects/class/Static.cpp.o	ac08a8cc947b1c9b
