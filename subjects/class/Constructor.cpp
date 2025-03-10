@@ -5,11 +5,14 @@
 #include <iostream>
 #include <ostream>
 class Entity {
+  private:
+    int m_Score;
+    std::string m_Name;
   public:
     float X, Y;
-    Entity() {
-      X = 0.0f;
-      Y = 0.0f;
+    Entity()
+      : m_Score(0), m_Name(""), X(0.0f), Y(0.0f)
+    {
     }
 
   Entity(const float X, const float Y) {
