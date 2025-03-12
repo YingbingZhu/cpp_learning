@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../Header Files/Log.h"
+#include "Log.h"
 
 void Increment(int* value) {
   (*value)++; // dereference the pointer and access the value stored
