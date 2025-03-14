@@ -23,7 +23,6 @@ int* CreateArray() {
 
 
 int main() {
-
   // heap based
   {
     // heap based
