@@ -1,0 +1,9 @@
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/Arrays.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/String.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/Pointer.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/SmartPointer.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/Macro.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/Auto.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/FunctionPointer.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/edit_cache.dir
+/Users/yingbingzhu/CLionProjects/learning/cmake-build-release/CMakeFiles/rebuild_cache.dir

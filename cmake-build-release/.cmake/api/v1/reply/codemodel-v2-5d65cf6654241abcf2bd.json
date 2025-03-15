@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Arrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Arrays-Release-b8e4fc85280f5dc74379.json",
+					"name" : "Arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Auto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Auto-Release-fea5832dc101f05a1a9e.json",
+					"name" : "Auto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FunctionPointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FunctionPointer-Release-eb9e5ed3b28d4f23c323.json",
+					"name" : "FunctionPointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Macro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Macro-Release-436483a14f7df9706ddf.json",
+					"name" : "Macro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pointer-Release-ddc502aac6c197aeaff1.json",
+					"name" : "Pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartPointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartPointer-Release-be91c4b96c03b73f7e76.json",
+					"name" : "SmartPointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "String::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-String-Release-c78be723e0bd3e52c1b6.json",
+					"name" : "String",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yingbingzhu/CLionProjects/learning/cmake-build-release",
+		"source" : "/Users/yingbingzhu/CLionProjects/learning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
