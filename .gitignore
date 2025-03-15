@@ -1,0 +1,2 @@
+# Ignore CLion build directories
+cmake-build-*/
