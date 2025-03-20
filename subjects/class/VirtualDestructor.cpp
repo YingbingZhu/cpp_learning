@@ -7,7 +7,7 @@
 class Base {
   public:
     Base() {std::cout << "Base Constrcutor" << std::endl;}
-    virtual ~Base() {std::cout << "Base Destructor" << std::endl;}
+    virtual ~Base() {std::cout << "Base Destructor" << std::endl;} // always use virtual for base class
 };
 
 class Derived : public Base {

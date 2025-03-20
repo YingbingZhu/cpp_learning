@@ -26,7 +26,10 @@ add_executable(SmartPointer "subjects/pointer/SmartPointer.cpp")
 add_executable(Macro "subjects/key_words/Macro.cpp")
 add_executable(Auto "subjects/key_words/Auto.cpp")
 add_executable(FunctionPointer "subjects/pointer/FunctionPointer.cpp")
+add_executable(PrecompileHeader "subjects/precompile_headers/main.cpp")
 
+# Instruct CMake to precompile pch.h for the my_app target.
+target_precompile_headers(PrecompileHeader PRIVATE subjects/precompile_headers/pch.h)
 
 # Ensure each executable includes its own directories
 target_include_directories(Arrays PRIVATE subjects/data_structures)
@@ -38,3 +41,5 @@ target_compile_definitions(Macro
         $<$<CONFIG:Debug>:DEBUG_MODE>
         $<$<CONFIG:Release>:RELEASE_MODE>
 )
+
+
